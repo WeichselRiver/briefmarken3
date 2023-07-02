@@ -1,0 +1,16 @@
+{
+    "AD Baden": {
+        "1851": {
+            "1-8": [
+                {
+                    "url": "https://marken.blob.core.windows.net/ddr/my_blob.jpg?sv=2022-11-02&ss=bf&srt=co&se=2023-07-05T15%3A11%3A28Z&sp=rwl&sig=IY%2FaiM%2BHPGWlmkwHE1ARFfmEqdSilxclUhpNI7C7IQQ%3D",
+                    "nr" : 1
+                },
+                {
+                    "url": "https://marken.blob.core.windows.net/ddr/adbaden001_2.jpg?sv=2022-11-02&ss=bf&srt=co&se=2023-07-05T18%3A10%3A58Z&sp=rwl&sig=KoYLwZd8ok9Sjn5gyxqg6g7MMBMLz6ooq2crWFVgjaA%3D",
+                    "nr" : 2
+                }
+            ]
+        }
+    }
+}
