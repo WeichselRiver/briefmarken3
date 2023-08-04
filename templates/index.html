@@ -7,8 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    kkk
-    <h1> <a href="/AD_Baden_index">Altdeutschland Baden1</a></h1>
-    <img id ="a2" src= "/static/images/{{ image }}" alt="no img">
+    <h1>Konf. Staaten</h1>
+    <h2>Allgemeine Ausgaben</h2> 
+    <div style="display: flex;">
+        {% for marke in image_names %}
+        <figure>
+            <img src="{{ url_for('static', filename='images/' + marke['filename']) }}" alt="n_image" >
+            <figcaption> #{{marke['MichNr'] }}</figcaption>
+        </figure>
+        {% endfor %}
+    </div>
+  
 </body>
 </html>
