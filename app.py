@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 marken = [
     {"MichNr": "7", "filename": "Mn4.jpg"},
-    {"MichNr": "10 I", "Typ": "I", "filename": "Mn10I.jpg"},
     {"MichNr": "10 II", "Typ": "II", "filename": "Mn10II.jpg"},
+    {"MichNr": "10 I", "Typ": "I", "filename": "Mn10I.jpg"},
 ]
 
 with open("marken.json", encoding="UTF8") as f:
